@@ -1,54 +1,57 @@
-📌 Project: Heart Disease Prediction using Machine Learning
-This project aims to predict the likelihood of heart disease in individuals using machine learning algorithms. The model is trained on clinical data and leverages various features like age, cholesterol level, resting blood pressure, and more to generate predictions.
+# 📌 Project: Heart Disease Prediction using Machine Learning
 
-🛠️ Technologies Used
-Python
+This project aims to **predict the likelihood of heart disease** in individuals using machine learning algorithms.  
+The model is trained on clinical data and uses features like **age**, **cholesterol**, **resting blood pressure**, etc.
 
-Pandas, NumPy
+---
 
-Scikit-learn
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Matplotlib, Seaborn
+---
 
-Jupyter Notebook
+## 📁 Dataset
+- `heart.csv` – Structured dataset containing clinical data such as:
+  - Age
+  - Sex
+  - Cholesterol
+  - Blood pressure
+  - Chest pain type, etc.
 
-📁 Dataset
-heart.csv – A structured dataset containing clinical data such as age, sex, cholesterol, blood pressure, etc.
+---
 
-🔁 Workflow
-🔹 Data Preprocessing
-Handled missing values and encoded categorical data
+## 📊 Workflow
 
-Normalized continuous features
+### 🔹 Data Preprocessing
+- Handled missing values and encoded categorical data
+- Normalized continuous features
 
-🔹 Exploratory Data Analysis (EDA)
-Visualized correlations, distributions, and key patterns in the data
+### 🔹 Exploratory Data Analysis (EDA)
+- Visualized correlations, distributions, and patterns
+- Used bar plots, heatmaps, and pair plots
 
-🔹 Model Building
-Implemented multiple ML models:
+### 🔹 Model Building
+- Implemented and compared multiple ML models:
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+  - Decision Tree
 
-✅ Logistic Regression
+### 🔹 Evaluation
+- Evaluated models using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Precision, Recall
+  - ROC Curve
 
-✅ K-Nearest Neighbors (KNN)
+---
 
-✅ Decision Tree
+## ✅ Results
+- Achieved **high accuracy** using **Logistic Regression**
+- Helpful in early detection of heart disease risk
 
-Compared performance metrics of each model
-
-🔹 Evaluation
-Evaluated models using:
-
-Accuracy Score
-
-Confusion Matrix
-
-Precision, Recall
-
-ROC Curve
-
-✅ Results
-Achieved high accuracy using Logistic Regression
-
-The model can help in early-stage detection of heart disease risks
-
- 
