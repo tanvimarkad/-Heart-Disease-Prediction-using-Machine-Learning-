@@ -1,43 +1,54 @@
+📌 Project: Heart Disease Prediction using Machine Learning
+This project aims to predict the likelihood of heart disease in individuals using machine learning algorithms. The model is trained on clinical data and leverages various features like age, cholesterol level, resting blood pressure, and more to generate predictions.
 
-📌 Project: Heart Disease Prediction using Machine Learning  
- This project aims to predict the likelihood of heart disease in individuals using machine learning algorithms. The model is trained on clinical data and leverages various features like age, cholesterol level, resting blood pressure, and more to generate predictions.
+🛠️ Technologies Used
+Python
 
-- Built a machine learning model to predict heart disease based on patient health data.  
-- Used Python (Pandas, Scikit-learn) for preprocessing and training ML algorithms.  
-- Achieved accurate results using Logistic Regression and KNN classifiers.  
-- Visualized results using Matplotlib and evaluated using confusion matrix and accuracy score.
+Pandas, NumPy
+
+Scikit-learn
+
+Matplotlib, Seaborn
+
+Jupyter Notebook
 
 📁 Dataset
 heart.csv – A structured dataset containing clinical data such as age, sex, cholesterol, blood pressure, etc.
 
-📊 Workflow
-Data Preprocessing
+🔁 Workflow
+🔹 Data Preprocessing
+Handled missing values and encoded categorical data
 
-Handled missing values and encoded categorical data.
+Normalized continuous features
 
-Normalized continuous features.
+🔹 Exploratory Data Analysis (EDA)
+Visualized correlations, distributions, and key patterns in the data
 
-Exploratory Data Analysis (EDA)
-
-Visualized correlations, distributions, and key patterns in the data.
-
-Model Building
-
+🔹 Model Building
 Implemented multiple ML models:
 
-Logistic Regression
+✅ Logistic Regression
 
-K-Nearest Neighbors (KNN)
+✅ K-Nearest Neighbors (KNN)
 
-Decision Tree
+✅ Decision Tree
 
-Compared performance metrics of each model.
+Compared performance metrics of each model
 
-Evaluation
+🔹 Evaluation
+Evaluated models using:
 
-Evaluated models using Accuracy Score, Confusion Matrix, Precision, Recall, and ROC Curve.
+Accuracy Score
+
+Confusion Matrix
+
+Precision, Recall
+
+ROC Curve
 
 ✅ Results
-Achieved high accuracy using Logistic Regression.
+Achieved high accuracy using Logistic Regression
 
-The model can help in early-stage detection of heart disease risks.
+The model can help in early-stage detection of heart disease risks
+
+ 
